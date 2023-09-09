@@ -1,0 +1,32 @@
+:root {
+  font-family: 'Noto Sans', sans-serif;
+
+  background: rgb(238,174,202);
+background: -moz-radial-gradient(circle, rgba(238,174,202,0.4990371148459384) 0%, rgba(148,187,233,0.5) 100%);
+background: -webkit-radial-gradient(circle, rgba(238,174,202,0.4990371148459384) 0%, rgba(148,187,233,0.5) 100%);
+background: radial-gradient(circle, rgba(238,174,202,0.4990371148459384) 0%, rgba(148,187,233,0.5) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#94bbe9",GradientType=1);
+
+}
+/* 
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 5.2em;
+  line-height: 1.1;
+}  */
