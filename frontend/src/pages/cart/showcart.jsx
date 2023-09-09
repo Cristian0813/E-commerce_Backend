@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { connect } from 'react-redux';
-import { removeFromCart, updateCartItem } from '../redux/cartreducers'; // Asegúrate de que la ruta sea correcta
+import { removeFromCart, updateCartItem } from '../redux/cartreducers';
 
 const ShowCart = ({ cartItems, removeFromCart, updateCartItem }) => {
-    // Función para calcular el total de productos en el carrito
+   
     const calculateTotal = () => {
         let total = 0;
         cartItems.forEach((item) => {
-            total += item.precio * item.cont; // Actualizado para usar la cantidad (cont)
+            total += item.precio * item.cont;
         });
-        return total.toFixed(2); // Formatear el total como número decimal con 2 decimales
+        return total.toFixed(2);
     };
 
     return (
