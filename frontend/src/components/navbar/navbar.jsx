@@ -36,8 +36,9 @@ const NavBar = ({ cartItems }) => {
                                     <Nav.Link as={Link} to="/Contacto">Contáctanos</Nav.Link>
                                     <Nav.Link as={Link} to="/Compra" className="nav-link black-border" disabled={cartItems.length === 0}>
                                         <img src="../src/assets/image/cart-fill.svg" alt="Carrito de compras" />
-                                        <span>Carrito ({cartItems.length}) </span>
+                                        <span>Carrito ({cartItems.length})</span>
                                     </Nav.Link>
+
                                 </Nav>
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>

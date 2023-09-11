@@ -1,10 +1,9 @@
 // store.js
 import { createStore, combineReducers } from 'redux';
-import { cartReducer } from './cartreducers'; // Importa cartReducer como una exportación con nombre
+import { cartReducer } from './cartreducers'; 
 
 const rootReducer = combineReducers({
-  cart: cartReducer, // Asigna el reducer a una clave llamada 'cart'
-  // Otros reducers aquí si los tienes
+  cart: cartReducer, 
 });
 
 const store = createStore(rootReducer);

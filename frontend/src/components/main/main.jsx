@@ -17,7 +17,6 @@ const appRoot = (
 );
 
 if (root) {
-  // Usando createRoot desde "react-dom/client" en React 18+
   const reactRoot = createRoot(root);
   reactRoot.render(appRoot);
 } else {

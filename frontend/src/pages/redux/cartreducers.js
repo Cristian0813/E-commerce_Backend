@@ -3,44 +3,45 @@ const initialState = {
 };
 
 export const cartReducer = (state = initialState, action) => {
+  const product = action.payload;
   switch (action.type) {
-    case 'ADD_TO_CART':
-      return {
-        ...state,
-        cartItems: [...state.cartItems, action.payload],
-      };
-    case 'UPDATE_CART_ITEM_QUANTITY':
-      const { productId, quantity } = action.payload;
-      const updatedItems = state.cartItems.map((item) =>
-        item.id === productId ? { ...item, qty: quantity } : item
-      );
-      return {
-        ...state,
-        cartItems: updatedItems,
-      };
-    case 'REMOVE_FROM_CART':
-      const updatedCartItems = state.cartItems.filter(
-        (item) => item.id !== action.payload
-      );
-      return {
-        ...state,
-        cartItems: updatedCartItems,
-      };
+    case "ADDITEM":
+      // Check if product already in cart
+      const exist = state.cartItems.find((x) => x.id === product.id);
+      if (exist) {
+        // Increase the quantity
+        return {
+          ...state,
+          cartItems: state.cartItems.map((x) =>
+            x.id === product.id ? { ...x, qty: x.qty + 1 } : x
+          ),
+        };
+      } else {
+        return {
+          ...state,
+          cartItems: [...state.cartItems, { ...product, qty: 1 }],
+        };
+      }
+      break;
+    case "DELITEM":
+      const exist2 = state.cartItems.find((x) => x.id === product.id);
+      if (exist2.qty === 1) {
+        return {
+          ...state,
+          cartItems: state.cartItems.filter((x) => x.id !== exist2.id),
+        };
+      } else {
+        return {
+          ...state,
+          cartItems: state.cartItems.map((x) =>
+            x.id === product.id ? { ...x, qty: x.qty - 1 } : x
+          ),
+        };
+      }
+      break;
+
     default:
       return state;
+      break;
   }
-};
-
-export const updateCartItem = (productId, quantity) => {
-  return {
-    type: 'UPDATE_CART_ITEM_QUANTITY',
-    payload: { productId, quantity },
-  };
-};
-
-export const removeFromCart = (productId) => {
-  return {
-    type: 'REMOVE_FROM_CART',
-    payload: productId,
-  };
 };

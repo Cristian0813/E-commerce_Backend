@@ -1,6 +1,10 @@
 // actions.js
 export const addToCart = (product) => ({
-    type: 'ADD_TO_CART',
-    payload: product,
-  });
-  
+  type: 'ADDITEM',
+  payload: product,
+});
+
+export const removeFromCart = (product) => ({
+  type: 'DELITEM',
+  payload: product,
+});
