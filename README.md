@@ -45,7 +45,7 @@ npm install
 ```
 ## Configuración
 
-Antes de ejecutar el proyecto, asegúrate de haber configurado las variables de entorno. Crea un archivo .env en la raíz del proyecto y define las siguientes variables:
+Antes de ejecutar el proyecto, asegúrate de haber configurado las variables de entorno. Crea un archivo ```.env``` en la raíz del proyecto y define las siguientes variables:
 
 ```env
 PORT=3000
