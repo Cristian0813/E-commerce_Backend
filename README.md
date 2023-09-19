@@ -6,29 +6,56 @@ E-commerce es una aplicación web que ofrece a los clientes la posibilidad de se
 
 
 
-## Tecnologías Utilizadas
+# Tecnologías Utilizadas
 
-### Frontend
+## Frontend
 
 - **Lenguaje de Programación:** JavaScript (React)
-- **Framework de Frontend:** React
-- **Gestión de Estado:** Redux
-- **Framework de Estilos:** Bootstrap
-- **Lenguaje de Marcado:** JSX (JavaScript XML)
-- **Bundler/Build Tool:** Vite
-- **Herramienta de Linting:** ESLint
-- **Enrutamiento:** React Router DOM
-- **Librerías de Iconos:** Font Awesome
-- **Comunicación con API:** Axios
+  ![JavaScript (React)](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg)
 
-### Backend
+- **Framework de Frontend:** React
+  ![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg)
+
+- **Gestión de Estado:** Redux
+  ![Redux](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg)
+
+- **Framework de Estilos:** Bootstrap
+  ![Bootstrap](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg)
+
+- **Lenguaje de Marcado:** JSX (JavaScript XML)
+  ![JSX](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg)
+
+- **Bundler/Build Tool:** Vite
+  ![Vite](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg)
+
+- **Herramienta de Linting:** ESLint
+  ![ESLint](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg)
+
+- **Enrutamiento:** React Router DOM
+  ![React Router DOM](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/reactrouter/reactrouter-original.svg)
+
+- **Librerías de Iconos:** Font Awesome
+  ![Font Awesome](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fontawesome/fontawesome-original.svg)
+
+- **Comunicación con API:** Axios
+  ![Axios](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-original.svg)
+
+## Backend
 
 - **Lenguaje de Programación:** JavaScript (Node.js)
-- **Framework de Backend:** Express.js
-- **Base de Datos:** MongoDB (utilizando Mongoose)
-- **Comunicación con API Externa:** Axios
-- **Envío de Correos Electrónicos:** Nodemailer
+  ![JavaScript (Node.js)](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg)
 
+- **Framework de Backend:** Express.js
+  ![Express.js](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg)
+
+- **Base de Datos:** MongoDB (utilizando Mongoose)
+  ![MongoDB](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg)
+
+- **Comunicación con API Externa:** Axios
+  ![Axios](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-original.svg)
+
+- **Envío de Correos Electrónicos:** Nodemailer
+  ![Nodemailer](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodemailer/nodemailer-original.svg)
 
 ## Instalación
 
@@ -45,11 +72,11 @@ npm install
 ```
 ## Configuración
 
-Antes de ejecutar el proyecto, asegúrate de haber configurado las variables de entorno. Crea un archivo ```.env``` en la raíz del proyecto y define las siguientes variables:
+Antes de ejecutar el proyecto, asegúrate de haber configurado las variables de entorno. Crea un archivo .env en la raíz del proyecto y define las siguientes variables:
 
 ```env
-PORT=3000
-FAKEAPI=https://fakestoreapi.com/products
+Puerto = 3000
+FAKEAPI = https://fakestoreapi.com/products
 ```
 
 ## Authors
@@ -59,4 +86,6 @@ FAKEAPI=https://fakestoreapi.com/products
 
 ## Licencia
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Cristian0813/E-commerce/blob/main/LICENSE)  
+
+
 
