@@ -11,51 +11,51 @@ E-commerce es una aplicación web que ofrece a los clientes la posibilidad de se
 ## Frontend
 
 - **Lenguaje de Programación:** JavaScript (React)
-  ![JavaScript (React)](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg)
+  ![JavaScript (React)](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg)"javascript logo"{:height="40"}
 
 - **Framework de Frontend:** React
-  ![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg)
+  ![React](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg)"javascript logo"{:height="40"}
 
 - **Gestión de Estado:** Redux
-  ![Redux](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg)
+  ![Redux](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg)"javascript logo"{:height="40"}
 
 - **Framework de Estilos:** Bootstrap
-  ![Bootstrap](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg)
+  ![Bootstrap](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg)"javascript logo"{:height="40"}
 
 - **Lenguaje de Marcado:** JSX (JavaScript XML)
-  ![JSX](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg)
+  ![JSX](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg)"javascript logo"{:height="40"}
 
 - **Bundler/Build Tool:** Vite
-  ![Vite](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg)
+  ![Vite](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg)"javascript logo"{:height="40"}
 
 - **Herramienta de Linting:** ESLint
-  ![ESLint](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg)
+  ![ESLint](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg)"javascript logo"{:height="40"}
 
 - **Enrutamiento:** React Router DOM
-  ![React Router DOM](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/reactrouter/reactrouter-original.svg)
+  ![React Router DOM](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/reactrouter/reactrouter-original.svg)"javascript logo"{:height="40"}
 
 - **Librerías de Iconos:** Font Awesome
-  ![Font Awesome](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fontawesome/fontawesome-original.svg)
+  ![Font Awesome](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fontawesome/fontawesome-original.svg)"javascript logo"{:height="40"}
 
 - **Comunicación con API:** Axios
-  ![Axios](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-original.svg)
+  ![Axios](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-original.svg)"javascript logo"{:height="40"}
 
 ## Backend
 
 - **Lenguaje de Programación:** JavaScript (Node.js)
-  ![JavaScript (Node.js)](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg)
+  ![JavaScript (Node.js)](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg)"javascript logo"{:height="40"}
 
 - **Framework de Backend:** Express.js
-  ![Express.js](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg)
+  ![Express.js](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg)"javascript logo"{:height="40"}
 
 - **Base de Datos:** MongoDB (utilizando Mongoose)
-  ![MongoDB](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg)
+  ![MongoDB](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg)"javascript logo"{:height="40"}
 
 - **Comunicación con API Externa:** Axios
-  ![Axios](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-original.svg)
+  ![Axios](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/axios/axios-original.svg)"javascript logo"{:height="40"}
 
 - **Envío de Correos Electrónicos:** Nodemailer
-  ![Nodemailer](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodemailer/nodemailer-original.svg)
+  ![Nodemailer](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodemailer/nodemailer-original.svg)"javascript logo"{:height="40"}
 
 ## Instalación
 
