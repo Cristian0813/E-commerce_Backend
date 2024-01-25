@@ -149,4 +149,4 @@ Consulta la [documentación de nodemon](https://github.com/remy/nodemon#nodemon)
 
 ## License
 
-Este proyecto está bajo la [Licencia MIT](https://github.com/Cristian0813/E-commerce_Backend/blob/main/LICENSE)https://github.com/Cristian0813/E-commerce_Backend/blob/main/LICENSE )
+Este proyecto está bajo la [Licencia MIT](https://github.com/Cristian0813/E-commerce_Backend/blob/main/LICENSE)
