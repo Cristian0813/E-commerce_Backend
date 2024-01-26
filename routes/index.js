@@ -1,10 +1,7 @@
-const express = require ('express');
+const express = require('express');
 const router = express.Router();
+const apiRouter = require('../models/server');
 
-const productRoute = require ('../models/product');
-const descriptionRotue = require ('../models/description');
-
-router.use('/producto', productRoute);
-router.use('/descripcion', descriptionRotue);
+router.use('/', apiRouter);
 
 module.exports = router;
