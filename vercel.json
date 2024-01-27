@@ -11,10 +11,14 @@
   ],
   "routes": [
     {
+      "src": "/build/(.*)",
+      "dest": "/build/$1"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/app.js"
+      "dest": "/build/app.js"
     }
-  ],
+  ],  
   "env": {
     "PORT": "3000",
     "FAKESTORE": "https://fakestoreapi.com"
