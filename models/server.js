@@ -12,7 +12,7 @@ apiRouter.get('/products', async (req, res) => {
     res.json(transformedData);
   } catch (error) {
     console.error('Error fetching products:', error);
-    res.status(500).json({ message: 'Error en la búsqueda de productos' });
+    res.status(500).json({ message: 'Error fetching productos' });
   }
 });
 
@@ -27,7 +27,7 @@ apiRouter.get('/products/:id', async (req, res) => {
     res.json(transformedData);
   } catch (error) {
     console.error('Error fetching product:', error);
-    res.status(500).json({ message: 'Error en la búsqueda de productos' });
+    res.status(500).json({ message: 'Error fetching producto' });
   }
 });
 
