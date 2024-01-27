@@ -6,7 +6,7 @@ E-commerce_Backend es la parte del servidor que respalda la aplicación web E-co
 
 ## Demo
 
-https://cerrajeriamalla.netlify.app 
+[Fake Store E-commerce](https://fakestorecommerce.vercel.app/)
 *(Esta página de inicio de noticias ha sido cuidadosamente diseñada con un enfoque en la simplicidad y funcionalidad. Además, constituye un proyecto valioso para perfeccionar las habilidades en CSS Grid. )*
 
 ## Requisitos

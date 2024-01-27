@@ -11,10 +11,20 @@
   ],
   "routes": [
     {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/app.js"
+      "dest": "/api/handleRequest"
     }
   ],
+  "functions": {
+    "api/handleRequest": {
+      "handler": "app.handleRequest",
+      "runtime": "nodejs"
+    }
+  },
   "env": {
     "PORT": "3000",
     "FAKESTORE": "https://fakestoreapi.com"
