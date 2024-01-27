@@ -1,23 +1,26 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "./app.js",
-        "use": "@vercel/node",
-        "config": {
-          "buildCommand": "npm install && npm run build"
-        }
+  "version": 2,
+  "builds": [
+    {
+      "src": "./app.js",
+      "use": "@vercel/node",
+      "config": {
+        "buildCommand": "npm install && npm run build"
       }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/app.js"
-      }
-    ],
-    "env": {
-      "PORT": "3000",
-      "FAKESTORE": "https://fakestoreapi.com"
     }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/app.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "env": {
+    "PORT": "3000",
+    "FAKESTORE": "https://fakestoreapi.com"
   }
-  
+}
