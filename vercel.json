@@ -16,9 +16,12 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/build/app.js"
+      "dest": "/app.js"
     }
   ],  
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
   "env": {
     "PORT": "3000",
     "FAKESTORE": "https://fakestoreapi.com"
