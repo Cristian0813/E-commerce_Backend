@@ -17,7 +17,6 @@ app.set('view engine', 'jade');
 // Configuración de CORS
 const corsOptions = {
   origin: 'http://localhost:5173',
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
   optionsSuccessStatus: 204,
 };
