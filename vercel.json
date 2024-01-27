@@ -11,16 +11,9 @@
   ],
   "routes": [
     {
-      "src": "/build/(.*)",
-      "dest": "/build/$1"
-    },
-    {
       "src": "/(.*)",
       "dest": "/app.js"
     }
-  ],  
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
   ],
   "env": {
     "PORT": "3000",
