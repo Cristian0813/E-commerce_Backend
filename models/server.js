@@ -12,7 +12,7 @@ apiRouter.get('/products', async (req, res) => {
     res.json(transformedData);
   } catch (error) {
     console.error('Error fetching products:', error);
-    res.status(500).json({ message: 'Error fetching productos' });
+    res.status(500).json({ message: 'Error en la búsqueda de productos' });
   }
 });
 
@@ -27,7 +27,7 @@ apiRouter.get('/products/:id', async (req, res) => {
     res.json(transformedData);
   } catch (error) {
     console.error('Error fetching product:', error);
-    res.status(500).json({ message: 'Error fetching producto' });
+    res.status(500).json({ message: 'Error en la búsqueda de productos' });
   }
 });
 
@@ -41,7 +41,7 @@ function transformProductData(apiData) {
     category: product.category,
     image: product.image,
     rating: {
-      rate: parseFloat(product.rating.rate), // Convert the rating to a float
+      rate: parseFloat(product.rating.rate),
       count: product.rating.count,
     },
   }));
