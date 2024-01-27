@@ -21,7 +21,6 @@
   ],
   "functions": {
     "api/handleRequest": {
-      "handler": "app.handleRequest",
       "runtime": "nodejs"
     }
   },
