@@ -1,20 +1,22 @@
-const express = require('express');
-const path = require('path');
 const createError = require('http-errors');
+const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+
+const express = require('express');
+const app = express();
 const cors = require('cors');
+
+// Environment variables configuration
 require('dotenv').config();
 
-const app = express();
-
-// View engine setup
+// VIEW ENGINE SETUP
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 // Configuración de CORS
 const corsOptions = {
-  origin: process.env.CORS_ORIGIN || 'http://localhost:3000',
+  origin: 'https://fakestorecommerce.vercel.app',
   credentials: true,
   optionsSuccessStatus: 204,
 };
@@ -32,36 +34,27 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 console.log('Middlewares generales aplicados');
 
-// Routes
+// ROUTES
 const ApiRoutes = require('./routes/index');
 app.use('/ApiRouter', ApiRoutes);
 console.log('Middleware de enrutamiento aplicado para /ApiRouter');
 
-// Production mode
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, 'build')));
-
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
-  });
-}
-
-// Catch 404 and forward to error handler
+// CATCH 404 AND FORWARD TO ERROR HANDLER
 app.use(function (req, res, next) {
   console.log('Ruta no encontrada:', req.url);
   next(createError(404));
 });
 
-// Error handler
+// ERROR HANDLER
 app.use(function (err, req, res, next) {
   console.error('Error detectado:', err.stack);
 
-  // Set locals, only providing error in development
+  // SET LOCALS, ONLY PROVIDING ERROR IN DEVELOPMENT
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
   res.locals.title = 'Error';
 
-  // Render the error page
+  // RENDER THE ERROR PAGE
   res.status(err.status || 500);
   res.render('error');
 });

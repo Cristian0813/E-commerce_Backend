@@ -4,27 +4,21 @@
     {
       "src": "./app.js",
       "use": "@vercel/node",
-      "config": {
+      "config": 
+      {
         "buildCommand": "npm install && npm run build"
       }
     }
   ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    },
+  "routes": 
+  [
     {
       "src": "/(.*)",
-      "dest": "/api/handleRequest"
+      "dest": "/app.js"
     }
   ],
-  "functions": {
-    "api/handleRequest": {
-      "runtime": "nodejs"
-    }
-  },
-  "env": {
+  "env": 
+  {
     "PORT": "3000",
     "FAKESTORE": "https://fakestoreapi.com"
   }
