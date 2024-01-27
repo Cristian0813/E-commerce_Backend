@@ -11,12 +11,8 @@
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/app.js"
-    },
-    {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/app.js"
     }
   ],
   "env": {
